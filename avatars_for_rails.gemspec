@@ -17,11 +17,11 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('foreigner', '>= 0.9.1')
   s.add_runtime_dependency('paperclip', '>= 2.3.4')
 
-  if defined?(PLATFORM) && PLATFORM == 'java'
+  #if defined?(PLATFORM) && PLATFORM == 'java'
     s.add_runtime_dependency('rmagick4j','>= 0.3.0')
-  else
-    s.add_runtime_dependency('rmagick','>= 2.13.1')
-  end
+  #else
+  #  s.add_runtime_dependency('rmagick','>= 2.13.1')
+  #end
 
   # Development Gem dependencies
   #
